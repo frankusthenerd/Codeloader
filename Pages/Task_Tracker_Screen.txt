@@ -1,0 +1,38 @@
++-task_tracker_logo--++-task_list--------------------------+
+|                    ||                                    |
++--------------------+|                                    |
++-project_list-------+|                                    |
+|                    ||                                    |
+|                    |+------------------------------------+
+|                    |[ task_name                          ]
+|                    |( add_task     )       ( remove_task )
+|                    |
+|                    |{ task_desc_label                    }
+|                    |+-task_description-------------------+
+|                    ||                                    |
+|                    ||                                    |
+|                    ||                                    |
+|                    |+------------------------------------+
++--------------------+{ rate_label }[ task_rate            ]
+[ project_name       ]{ time_label }[ task_time            ]
+( add_project        ){ task_complete  }{ task_on_hold     }
+( remove_project     )( start_task  )        ( stop_task   )
+( export_project     )( update_task                        )
+
+task_tracker_logo -> change-type=picture, image=Codeloader.png
+project_list -> change-type=menu
+add_project -> label=Add Project, bg-color=lightgreen
+remove_project -> label=Remove Project, bg-color=red
+export_project -> label=Export Project, bg-color=lightblue
+task_list -> change-type=menu
+add_task -> label=Add Task, bg-color=lightgreen
+remove_task -> label=Remove Task, bg-color=red
+task_desc_label -> change-type=label, label=Task Information, bold=on, size=24
+task_description -> change-type=edit
+rate_label -> change-type=label, label=Rate:
+time_label -> change-type=label, label=Time:
+task_complete -> change-type=checkbox, label=Complete
+task_on_hold -> change-type=checkbox, label=On Hold
+start_task -> label=Start Task, bg-color=lightgreen
+stop_task -> label=Stop Task, bg-color=red
+update_task -> label=Update Task, bg-color=lightblue

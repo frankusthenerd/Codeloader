@@ -1,0 +1,25 @@
++-articles_logo------+
+|                    |
++--------------------+
++-art_menu-----------+
+|                    |
+|                    |
++--------------------+
++-articles_wiki------+
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
++--------------------+
+[ art_wiki_name      ]
+( set_art_wiki       )
+
+art_menu -> change-type=menu, file=Articles.txt
+articles_wiki -> change-type=wiki
+articles_logo -> change-type=picture, image=Codeloader.png
+set_art_wiki -> label=Set Wiki Name, bg-color=lightblue

@@ -1,0 +1,33 @@
++-bump_map_logo-------+             +-bump_maps------------+
+|                     |             |                      |
++---------------------+             |                      |
++-bmap_set_menu--+                  |                      |
+|                |                  +----------------------+
+|                |                  [ bump_map_name        ]
+|                |                  ( add_bump_map         )
++----------------+                  ( del_bump_map         )
+[ bmap_set_name  ]+-bump_map_editor------------------------+
+( add_bmap_set   )|                                        |
+( save_bmap_set  )|                                        |
++-bmap_sprites---+|                                        |
+|                ||                                        |
+|                ||                                        |
+|                ||                                        |
+|                ||                                        |
++----------------+|                                        |
+[ bmap_spr_name  ]|                                        |
+( add_bmap_spr   )+----------------------------------------+
+( del_bmap_spr   )                         ( save_bump_map )
+
+bump_map_logo -> change-type=picture, image=Codeloader.png
+bmap_set_menu -> change-type=menu
+add_bmap_set -> label=Add Map Set, bg-color=lightgreen
+save_bmap_set -> label=Save Map Set, bg-color=lightblue
+bmap_sprites -> change-type=menu
+add_bmap_spr -> label=Add Sprite, bg-color=lightgreen
+del_bmap_spr -> label=Delete Sprite, bg-color=red
+bump_maps -> change-type=menu
+add_bump_map -> label=Add Bump Map, bg-color=lightgreen
+del_bump_map -> label=Delete Bump Map, bg-color=red
+bump_map_editor -> change-type=bump-map-editor
+save_bump_map -> label=Save Bump Map, bg-color=lightblue

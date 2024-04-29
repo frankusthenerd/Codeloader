@@ -1,0 +1,25 @@
++-code_editor-------------------------------++-projects----+
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           |+-------------+
+|                                           |+-files-------+
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           |+-------------+
+|                                           |+-code--------+
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
+|                                           ||             |
++-------------------------------------------++-------------+
+
+code_editor -> change-type=code-editor
+projects -> change-type=menu, file=Projects.txt
+files -> change-type=tool-palette, columns=3
+code -> change-type=menu

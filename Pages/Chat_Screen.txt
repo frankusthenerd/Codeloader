@@ -1,0 +1,25 @@
++-chat_logo-----------+
+|                     |
++---------------------+
++-chat-----------------------------------------------------+
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
++----------------------------------------------------------+
+{ chat_nav     }                             { chat_upload }
+
+chat_logo -> change-type=picture, image=Codeloader.png
+chat_upload -> change-type=uploader
+chat_nav -> change-type=toolbar, pages=on
+chat -> change-type=chat

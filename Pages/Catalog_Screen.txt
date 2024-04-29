@@ -1,0 +1,34 @@
++-catalog_logo--------+             +-catalog_inspector----+
+|                     |             |                      |
++---------------------+             |                      |
++--catalog_menu--+                  |                      |
+|                |                  |                      |
+|                |                  |                      |
+|                |                  |                      |
++----------------+                  |                      |
+[ catalog_name   ]                  |                      |
+( add_catalog    )                  |                      |
+( save_catalog   )                  |                      |
++-cat_objects----+                  |                      |
+|                |                  |                      |
+|                |                  |                      |
+|                |                  |                      |
+|                |                  |                      |
++----------------+                  |                      |
+[ cat_obj_name   ][ cat_obj_parent ]+----------------------+
+( add_cat_obj    )                  ( update_cat_object    )
+( del_cat_obj    )                  ( rescan_parent_obj    )
+
+catalog_logo -> change-type=picture, image=Codeloader.png
+catalog_menu -> change-type=menu
+save_catalog -> label=Save Catalog, bg-color=lightgreen
+cat_objects -> change-type=menu
+add_cat_obj -> label=Add Object, bg-color=lightblue
+catalog_inspector -> change-type=grid-view, rows=50, columns=2
+update_cat_object -> label=Update Object, bg-color=lightblue
+del_cat_obj -> label=Delete Object, bg-color=red
+add_catalog -> label=Add Catalog, bg-color=lightblue
+catalog_name -> label=Catalog Name
+cat_obj_name -> label=Object Name
+cat_obj_parent -> label=Parent Object
+rescan_parent_obj -> label=Rescan Parent Object, bg-color=lightgreen

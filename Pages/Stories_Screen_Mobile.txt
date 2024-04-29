@@ -1,0 +1,25 @@
++-stories_menu-------+
++--------------------+
++-stories_reader-----+
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
++--------------------+
+( st_next            )
+( st_back            )
+
+stories_reader -> change-type=comic-reader, name=Trail_Hogs
+st_next -> label=Next, bg-color=lightgreen
+st_back -> label=Back, bg-color=lightblue
+stories_menu -> change-type=menu, file=Stories.txt

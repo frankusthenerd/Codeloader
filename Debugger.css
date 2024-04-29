@@ -1,0 +1,300 @@
+/*****************************************************************************/
+/* Layout Debugger Stylesheet                                                */
+/* Programmed by Francois Lamini                                             */
+/*****************************************************************************/
+
+@font-face {
+  font-family: regular;
+  src: url("Fonts/Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: regular;
+  src: url("Fonts/Regular_Italic.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: regular;
+  src: url("Fonts/Regular_Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Prevent text highlighting. */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+div, span {
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+::-ms-input-placeholder {
+  color: gray;
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+html {
+  width: 100%;
+  height: 100%
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: black;
+  font-family: regular, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  cursor: url("Images/Cursor.png"), default;
+}
+
+img, div, canvas {
+  image-rendering: auto;
+  transform: translateZ(0);
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+pre {
+  margin: 0
+}
+
+code {
+  color: green;
+}
+
+input, textarea {
+  cursor: url("Images/Cursor.png"), default;
+}
+
+a {
+  cursor: url("Images/Cursor.png"), default;
+  text-decoration: none;
+  color: blue;
+}
+
+select option {
+  font-size: 20px;
+}
+
+br {
+  clear: both;
+  height: 0;
+}
+
+ul {
+  list-style-type: box;
+  padding: 4px;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 960px;
+  height: 640px;
+  background-color: white;
+  margin: auto;
+}
+
+.container.dark {
+  background-color: black;
+}
+
+.dialog {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 320px;
+  height: 64px;
+  background-color: #F4F6F7;
+  box-shadow: 4px 4px 4px black;
+  display: none;
+  z-index: 1000;
+}
+
+.table_head {
+  border: 1px solid navy;
+  color: navy;
+  background-color: #F2F3F4;
+  padding: 4px;
+  height: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 20px;
+  width: 170px;
+  float: left;
+}
+
+.table_data {
+  padding: 5px;
+  font-size: 16px;
+  width: 170px;
+  height: 140px;
+  overflow: hidden;
+  float: left;
+}
+
+br {
+  clear: both;
+  height: 0;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  height: 24px;
+  background-image: url("Images/Range.png");
+}
+
+input[type="Range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 24px;
+  background-color: silver;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: box;
+  padding: 4px;
+}
+form {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+form input {
+  border: 1px solid silver;
+  padding: 2px;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  width: 90%;
+  height: 400px;
+  background-color: green;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.container form {
+  width: calc(50% - 10px);
+  height: calc(100% - 10px);
+  margin: 0;
+  position: absolute;
+  padding: 5px;
+  left: 0;
+  top: 0
+}
+
+#markdown_editor {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  padding: 0;
+}
+
+#markdown_output {
+  width: calc(50% - 20px);
+  height: calc(100% - 20px);
+  background-color: white;
+  position: absolute;
+  left: calc(50% + 5px);
+  top: 5px;
+  padding: 5px;
+  white-space: pre;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  overflow: scroll;
+}
+
+.button {
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  background-color: blue;
+  color: white;
+  font-family: Regular, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 14px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#markdown_output .box {
+  position: absolute;
+  background-color: silver;
+  color: black;
+}
+
+#markdown_output .panel {
+  position: absolute;
+  color: black;
+  background-color: lightblue;
+}
+
+#markdown_output .button {
+  position: absolute;
+}
+
+#manual {
+  right: 5px;
+  bottom: -25px;
+}
+
+#clear {
+  left: 5px;
+  bottom: -25px;
+}

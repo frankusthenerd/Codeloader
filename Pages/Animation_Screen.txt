@@ -1,0 +1,37 @@
++-animation_logo------+             +-ani_sequences--------+
+|                     |             |                      |
++---------------------+             |                      |
++--ani_set_menu--+                  |                      |
+|                |                  +----------------------+
+|                |                  [ ani_sequence_name    ]
+|                |                  [ animation_timeout    ]
++----------------+                  ( add_ani_sequence     )
+[ ani_set_name   ]                  ( del_ani_sequence     )
+( add_ani_set    ) +-animation----+ +-ani_seq_images-------+
+( save_ani_set   ) |              | |                      |
++-animations-----+ |              | |                      |
+|                | |              | |                      |
+|                | |              | +----------------------+
+|                | +--------------+ [ ani_seq_image_name   ]
+|                | ( play_anim    ) ( add_ani_seq_image    )
++----------------+ ( stop_anim    ) ( del_ani_seq_image    )
+[ animation_name ]
+( add_animation  )
+( del_animation  )
+
+animation_logo -> change-type=picture, image=Codeloader.png
+ani_set_menu -> change-type=menu
+add_ani_set -> label=Add Animation Set, bg-color=lightgreen
+save_ani_set -> label=Save Animation Set, bg-color=lightblue
+animations -> change-type=menu
+add_animation -> label=Add Animation, bg-color=lightgreen
+del_animation -> label=Delete Animation, bg-color=red
+ani_sequences -> change-type=menu
+add_ani_sequence -> label=Add Animation Seq, bg-color=lightgreen
+del_ani_sequence -> label=Delete Animation Seq, bg-color=red
+ani_seq_images -> change-type=menu
+add_ani_seq_image -> label=Add Animation Seq Image, bg-color=lightgreen
+del_ani_seq_image -> label=Del Animation Seq Image, bg-color=red
+animation -> change-type=picture
+play_anim -> label=Play, bg-color=lightgreen
+stop_anim -> label=Stop, bg-color=lightblue

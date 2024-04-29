@@ -1,0 +1,25 @@
++-forum_logo----------+
+|                     |
++---------------------+
++-message_board--------------------------------------------+
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
++----------------------------------------------------------+
+{ forum_nav     }                           { forum_upload }
+
+forum_logo -> change-type=picture, image=Codeloader.png
+forum_upload -> change-type=uploader
+forum_nav -> change-type=toolbar, pages=on
+message_board -> change-type=board

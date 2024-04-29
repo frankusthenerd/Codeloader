@@ -1,0 +1,33 @@
++tl++-top_wires--++tr+
++--++------------++--+
++vl++codeloader--++vr+
+|  |+------------+|  |
+|  |              |  |
+|  |+-stories+    |  |
+|  |+--------+    |  |
+|  |+articles+    |  |
+|  |+--------+    |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
+|  |              |  |
++--+[ copyright  ]+--+
++bl++bottom_wires++br+
++--++------------++--+
+
+tl -> change-type=picture, image=Raspberry_PI.png
+top_wires -> change-type=picture, image=Horizontal_Wires.png
+tr -> change-type=picture, image=Raspberry_PI.png
+vl -> change-type=picture, image=Vertical_Wires.png
+bl -> change-type=picture, image=Raspberry_PI.png
+br -> change-type=picture, image=Raspberry_PI.png
+bottom_wires -> change-type=picture, image=Horizontal_Wires.png
+vr -> change-type=picture, image=Vertical_Wires.png
+codeloader -> change-type=picture, image=Codeloader.png
+articles -> change-type=image-button, image=Menu_Off.png, label=Articles, hover=Menu_On.png, color=white, link=Articles, popup=Codeloader's online magazine.
+copyright -> change-type=label, color=black, size=12, label=Programmed by the Codeloader.
+stories -> change-type=image-button, image=Menu_Off.png, label=Stories, hover=Menu_On.png, color=white, link=Stories, popup=A collection of stories written by me.

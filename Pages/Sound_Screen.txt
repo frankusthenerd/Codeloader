@@ -1,0 +1,36 @@
++-sound_logo----------++-sound_palette-------+( play_trck )
+|                     ||                     |( stop_trck )
++---------------------+|                     |( rwnd_trck )
++-track_menu----------+|                     |( clr_trck  )
+|                     ||                     |
+|                     ||                     |[ trk_len   ]
+|                     |+---------------------+( set_trk_l )
++---------------------+[ sound_name          ]
+[ track_name          ]( add_sound           )
+( add_track           )( delete_sound        )( set_tkpos )
+( save_track          )( update_sounds       )[ track_pos ]
++-sound_editor--------------------------------------------+
+|                                                         |
+|                                                         |
+|                                                         |
+|                                                         |
+|                                                         |
+|                                                         |
+|                                                         |
++---------------------------------------------------------+
+
+sound_logo -> change-type=picture, image=Codeloader.png
+track_menu -> change-type=menu
+add_track -> label=Add Track, bg-color=lightgreen
+save_track -> label=Save Track, bg-color=lightblue
+sound_palette -> change-type=tool-palette, columns=10
+add_sound -> label=Add Sound, bg-color=lightgreen
+delete_sound -> label=Delete Sound, bg-color=red
+update_sounds -> label=Update Sounds, bg-color=lightblue
+play_trck -> label=Play, bg-color=lightgreen
+stop_trck -> label=Stop, bg-color=red
+rwnd_trck -> label=Rewind, bg-color=lightgreen
+clr_trck -> label=Clear, bg-color=lightblue
+set_trk_l -> label=Set Length, bg-color=lightgreen
+set_tkpos -> label=Set Pos, bg-color=red
+sound_editor -> change-type=sound-editor

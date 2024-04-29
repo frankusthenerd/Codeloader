@@ -1,0 +1,36 @@
++tl++-top_pipe-----------------------------------------++tr+
++--++--------------------------------------------------++--+
++vl++-codeloader----------+                             +vr+
+|  |+---------------------+                             |  |
+|  |                                                    |  |
+|  |[key_name][key_stamp][kac] ( add_key ) ( gen_time ) |  |
+|  |                                                    |  |
+|  |+--key_box------------------+                       |  |
+|  ||                           |                       |  |
+|  ||                           |                       |  |
+|  |+---------------------------+                       |  |
+|  |( update )                                          |  |
+|  |                                                    |  |
+|  |[ email_key ] ( gen_email )                         |  |
+|  |                                                    |  |
+|  |+--email_body---------------+                       |  |
+|  ||                           |                       |  |
++--++---------------------------+                       +--+
++bl++-bottom_pipe--------------------------------------++br+
++--++--------------------------------------------------++--+
+
+tl -> change-type=picture, image=Lt_Elbow.png
+top_pipe -> change-type=picture, image=H_Pipe.png
+tr -> change-type=picture, image=Rt_Elbow.png
+vl -> change-type=picture, image=V_Pipe.png
+bl -> change-type=picture, image=Lb_Elbow.png
+br -> change-type=picture, image=Rb_Elbow.png
+bottom_pipe -> change-type=picture, image=H_Pipe.png
+codeloader -> change-type=picture, image=Codeloader.png
+vr -> change-type=picture, image=V_Pipe.png
+add_key -> label=Add Key
+gen_time -> label=Gen Time, bg-color=lightgreen
+key_box -> change-type=edit
+update -> label=Update
+gen_email -> label=Gen E-mail
+email_body -> change-type=edit

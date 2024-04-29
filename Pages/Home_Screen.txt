@@ -1,0 +1,38 @@
++tl++-top_wires----------------------------------------++tr+
++--++--------------------------------------------------++--+
++vl++-codeloader---+                                    +vr+
+|  |+--------------+                                    |  |
+|  |[ news                                            ] |  |
+|  |+-stories+   +--about----------------------------+  |  |
+|  |+--------+   |                                   |  |  |
+|  |+articles+   |                                   |  |  |
+|  |+--------+   |                                   |  |  |
+|  |+-code---+   |                                   |  |  |
+|  |+--------+   |                                   |  |  |
+|  |+-api----+   |                                   |  |  |
+|  |+--------+   |                                   |  |  |
+|  |+-tools--+   |                                   |  |  |
+|  |+--------+   |                                   |  |  |
+|  |             +-----------------------------------+  |  |
+|  |                                                    |  |
++--+ [ copyright                                     ]  +--+
++bl++-bottom_wires-------------------------------------++br+
++--++--------------------------------------------------++--+
+
+tl -> change-type=picture, image=Raspberry_PI.png
+top_wires -> change-type=picture, image=Horizontal_Wires.png
+tr -> change-type=picture, image=Raspberry_PI.png
+vl -> change-type=picture, image=Vertical_Wires.png
+bl -> change-type=picture, image=Raspberry_PI.png
+br -> change-type=picture, image=Raspberry_PI.png
+bottom_wires -> change-type=picture, image=Horizontal_Wires.png
+vr -> change-type=picture, image=Vertical_Wires.png
+codeloader -> change-type=picture, image=Codeloader.png
+articles -> change-type=image-button, image=Menu_Off.png, label=Articles, hover=Menu_On.png, color=white, popup=The Codeloader's online magazine., link=Articles
+stories -> change-type=image-button, image=Menu_Off.png, label=Stories, hover=Menu_On.png, color=white, link=Stories, popup=A collection of stories written by me.
+code -> change-type=image-button, image=Menu_Off.png, label=Code Bank, hover=Menu_On.png, color=white, link=Code Bank, popup=A vault where various code is stored.
+about -> change-type=wiki, file=About.txt
+news -> change-type=marquee, delay=200, speed=5, color=blue, label=Bluejay's Quest is being reissued with gamepad controls. The Trail Hogs is being reissued as an easier and linear game.
+copyright -> change-type=label, color=black, size=12, label=Programmed by Francois Lamini. All projects and articles are created by Francois. The Codeloader belongs to Francois.
+api -> change-type=image-button, image=Menu_Off.png, label=API Docs, hover=Menu_On.png, color=white, link=API Docs, popup=The API documentation for the code in the Code Bank.
+tools -> change-type=image-button, image=Menu_Off.png, label=Coder Tools, hover=Menu_On.png, color=white, link=Coder Tools, popup=Online tools for programmers., links=Object Catalog:Object Catalog;Bump Map Editor:Bump Map Editor;Animation Editor:Animation Editor;Sound Editor:Sound Editor;Task Tracker:Task Tracker
